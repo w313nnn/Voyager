@@ -14,65 +14,61 @@
 
 ### The Problem
 
-Planning a trip is rarely a single task. Travellers often have to coordinate flights, accommodation, activities, budgets, transportation, and personal preferences across multiple disconnected tools such as messaging apps, spreadsheets, online travel agencies, navigation platforms, and bill-splitting apps.
+Planning a trip is rarely a single task. Travellers often have to coordinate flights, accommodation, activities, budgets, transportation, and personal preferences across multiple disconnected tools such as messaging apps, spreadsheets, online travel agencies, navigation platforms, and bill-splitting apps. This becomes especially difficult for group trips, where different budgets, interests, schedules, and expectations must be continuously negotiated.
 
-This becomes especially difficult for group trips, where different budgets, interests, schedules, and expectations must be continuously negotiated.
+This fragmented process creates three major problems:
 
-**Time and cognitive load.**
-[Explain how much time/effort travellers spend searching, comparing and organising travel information. Include relevant research/statistics.]
+**Time and cognitive load.** Travellers spend significant time searching, comparing, and organising information before a trip. Expedia Group's Path to Purchase research found that travellers spent an average of **303 minutes** engaging with travel content during the 45 days before booking, highlighting the amount of effort involved in making travel decisions.
 
-**Group coordination friction.**
-[Explain the difficulties of balancing different preferences, budgets, schedules, dietary needs, activity interests, etc.]
+**Group coordination friction.** Group travellers must balance different preferences, budgets, energy levels, dietary needs, and activity interests. The person taking responsibility for planning often carries most of the organisational burden, while disagreements or unclear cost-sharing can slow down decision-making and create unnecessary tension.
 
-**Plans are fragile when things change.**
-[Explain what happens when flights are delayed, weather changes, attractions close, or activities become unavailable.]
+**Plans are fragile when things change.** Traditional itineraries are often static and require manual adjustments when flights are delayed, weather changes, attractions close, or activities become unavailable. This can result in wasted time, missed bookings, unnecessary transportation costs, and unexpected expenses. One survey reported that **72% of passengers incurred unexpected expenses due to flight delays or cancellations**, while **46% experienced financial losses from travel disruptions**.
 
-[Briefly summarise the overall problem and why existing travel planning workflows are insufficient.]
+The problem is therefore not simply a lack of travel information. **The information already exists, but it is fragmented across different tools and does not adapt well to the way people actually plan and travel together.** Travellers are still responsible for connecting information, negotiating decisions, managing costs, and rebuilding their plans when circumstances change.
 
 ### Target Users
 
 **Primary: Group Travellers**
 
-[Describe your specific target group, e.g. young adults, university students, friends, groups of 3–6 people.]
+Our primary users are **young adults travelling in groups of approximately 3–6 people**, including university students, friends, couples travelling with friends, and young working adults.
 
-**Their needs:**
-
-* [Need 1]
-* [Need 2]
-* [Need 3]
-* [Need 4]
+Their main challenge is coordination. Each traveller may have different preferences, budget limits, availability, and activity priorities. Instead of requiring one person to organise everything, our solution allows each member to contribute their preferences and constraints, which can then be consolidated into a shared trip plan.
 
 **Secondary: Solo Travellers**
 
-[Briefly explain how solo travellers experience similar planning problems and how your solution can support them.]
+Solo travellers also face fragmented planning, extensive information searching, budget management, and the need to adjust plans when circumstances change. For them, the system focuses more on personalised itinerary generation, budgeting, and adaptive replanning.
 
 ### Existing Solutions & Gaps
 
-Current travel tools address different parts of the travel journey:
+Travellers currently rely on a combination of tools, each designed to solve a different part of the journey:
 
-| Existing Solution  | What It Does Well          | Gap / Limitation                    |
-| ------------------ | -------------------------- | ----------------------------------- |
-| [e.g. Google Maps] | [Navigation and locations] | [Does not manage the complete trip] |
-| [e.g. Booking.com] | [Accommodation / bookings] | [Limited group coordination]        |
-| [e.g. Splitwise]   | [Expense splitting]        | [Separate from itinerary planning]  |
-| [e.g. Wanderlog]   | [Itinerary organisation]   | [Gap relevant to your solution]     |
+| Existing Solution                 | Strength                             | Gap                                                                               |
+| --------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------- |
+| **Online Travel Agencies (OTAs)** | Flights and accommodation booking    | Do not manage the complete group planning workflow                                |
+| **Google Maps**                   | Navigation, locations and routes     | Does not coordinate group preferences, budgets and itineraries                    |
+| **Splitwise**                     | Shared expense tracking              | Separate from itinerary and activity planning                                     |
+| **Wanderlog**                     | Trip and itinerary organisation      | Limited support for dynamic group decision-making and disruption-based replanning |
+| **Messaging apps**                | Group discussion and decision-making | Information becomes scattered and difficult to organise                           |
 
-**The gap:**
-[Explain in 2–4 sentences why travellers still need to manually connect these tools and how your solution addresses that gap.]
+These tools are useful individually, but travellers still have to **connect them manually**. A group may discuss activities in a messaging app, save locations in a map, build an itinerary in a planning tool, book through an OTA, and track expenses somewhere else.
+
+This creates a fragmented workflow where **planning, decision-making, budgeting, and replanning are treated as separate tasks instead of parts of the same trip.**
 
 ### Our Solution
 
-[Explain your solution in 3–4 clear sentences.]
+Our Travel Planner brings these parts of trip planning into one connected experience. Users can create a trip, provide their preferences and budget, collaborate with their group, and generate an itinerary based on the group's combined needs.
 
-**Key Features:**
+Rather than treating the itinerary as a fixed schedule, the system is designed to **adapt when the situation changes**. When a disruption occurs, such as a delay, weather change, or unavailable activity, the system can help identify alternative activities and adjust the itinerary while considering existing preferences, budget and location constraints.
 
-* 🗺️ [AI-assisted itinerary generation]
-* 👥 [Group preference coordination]
-* 💰 [Budget / expense management]
-* 🔄 [Adaptive itinerary replanning]
-* 📍 [Location / route-aware planning]
-* ✈️ [Travel information / availability integration]
-* 👤 [Solo travel support]
+**Key features include:**
+
+* 🗺️ **AI-assisted itinerary planning** based on interests, budget and constraints
+* 👥 **Group preference coordination** so individual preferences can contribute to a shared plan
+* 💰 **Shared budget and expense management** for clearer group spending
+* 🔄 **Adaptive itinerary replanning** when unexpected changes occur
+* 📍 **Location and route-aware planning** to reduce unnecessary travel
+* ✈️ **Travel information integration** where applicable
+* 👤 **Support for both group and solo travel**
 
 ---
 
