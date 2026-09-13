@@ -1,4 +1,4 @@
-# [Project Name] by TSLC
+# ✈️ Voyager by TSLC
 
 **Team:** Lee Wei En, Chan Xiang Wei, See Jia Yee, Teh Hui Min
 
@@ -8,406 +8,605 @@
 
 **Presentation Slides:** [Public Link]
 
+**UI Prototype:** [Voyager Interactive Prototype](https://domain-whale-37161544.figma.site)
+
 ---
 
-## 1. Project Overview
+# 1. 🌍 Project Overview
 
-### The Problem
+## 🧩 The Problem
 
-Planning a trip is rarely a single task. Travellers often have to coordinate flights, accommodation, activities, budgets, transportation, and personal preferences across multiple disconnected tools such as messaging apps, spreadsheets, online travel agencies, navigation platforms, and bill-splitting apps. This becomes especially difficult for group trips, where different budgets, interests, schedules, and expectations must be continuously negotiated.
+Planning a trip is rarely a single task. Travellers often have to coordinate **flights, accommodation, activities, budgets, transportation, and personal preferences** across multiple disconnected tools such as messaging apps, spreadsheets, online travel agencies, navigation platforms, and bill-splitting apps. This becomes especially difficult for group trips, where different budgets, interests, schedules, and expectations must be continuously negotiated.
 
 This fragmented process creates three major problems:
 
-**Time and cognitive load.** Travellers spend significant time searching, comparing, and organising information before a trip. Expedia Group's Path to Purchase research found that travellers spent an average of **303 minutes** engaging with travel content during the 45 days before booking, highlighting the amount of effort involved in making travel decisions.
+### ⏳ Time and Cognitive Load
 
-**Group coordination friction.** Group travellers must balance different preferences, budgets, energy levels, dietary needs, and activity interests. The person taking responsibility for planning often carries most of the organisational burden, while disagreements or unclear cost-sharing can slow down decision-making and create unnecessary tension.
+Travellers spend significant time searching, comparing, and organising information before a trip. Expedia Group's Path to Purchase research found that travellers spent an average of **303 minutes** engaging with travel content during the 45 days before booking, highlighting how much effort can go into making travel decisions.
 
-**Plans are fragile when things change.** Traditional itineraries are often static and require manual adjustments when flights are delayed, weather changes, attractions close, or activities become unavailable. This can result in wasted time, missed bookings, unnecessary transportation costs, and unexpected expenses. One survey reported that **72% of passengers incurred unexpected expenses due to flight delays or cancellations**, while **46% experienced financial losses from travel disruptions**.
+### 👥 Group Coordination Friction
 
-The problem is therefore not simply a lack of travel information. **The information already exists, but it is fragmented across different tools and does not adapt well to the way people actually plan and travel together.** Travellers are still responsible for connecting information, negotiating decisions, managing costs, and rebuilding their plans when circumstances change.
+Group travellers must balance different **preferences, budgets, energy levels, dietary needs, and activity interests**. The person taking responsibility for planning often carries most of the organisational burden, while disagreements or unclear cost-sharing can slow down decision-making and create unnecessary tension.
 
-### Target Users
+### 🔄 Plans Are Fragile When Things Change
 
-**Primary: Group Travellers**
+Traditional itineraries are often static and require manual adjustments when:
 
-Our primary users are **young adults travelling in groups of approximately 3–6 people**, including university students, friends, couples travelling with friends, and young working adults.
+* ✈️ Flights are delayed
+* 🌧️ Weather changes
+* 🚫 Attractions close
+* 📅 Activities become unavailable
 
-Their main challenge is coordination. Each traveller may have different preferences, budget limits, availability, and activity priorities. Instead of requiring one person to organise everything, our solution allows each member to contribute their preferences and constraints, which can then be consolidated into a shared trip plan.
+This can result in wasted time, missed bookings, unnecessary transportation costs, and unexpected expenses.
 
-**Secondary: Solo Travellers**
+One recent survey reported that **72% of passengers incurred unexpected expenses due to flight delays or cancellations**, while **46% experienced financial losses from travel disruptions**.
 
-Solo travellers also face fragmented planning, extensive information searching, budget management, and the need to adjust plans when circumstances change. For them, the system focuses more on personalised itinerary generation, budgeting, and adaptive replanning.
-
-### Existing Solutions & Gaps
-
-Travellers currently rely on a combination of tools, each designed to solve a different part of the journey:
-
-| Existing Solution                 | Strength                             | Gap                                                                               |
-| --------------------------------- | ------------------------------------ | --------------------------------------------------------------------------------- |
-| **Online Travel Agencies (OTAs)** | Flights and accommodation booking    | Do not manage the complete group planning workflow                                |
-| **Google Maps**                   | Navigation, locations and routes     | Does not coordinate group preferences, budgets and itineraries                    |
-| **Splitwise**                     | Shared expense tracking              | Separate from itinerary and activity planning                                     |
-| **Wanderlog**                     | Trip and itinerary organisation      | Limited support for dynamic group decision-making and disruption-based replanning |
-| **Messaging apps**                | Group discussion and decision-making | Information becomes scattered and difficult to organise                           |
-
-These tools are useful individually, but travellers still have to **connect them manually**. A group may discuss activities in a messaging app, save locations in a map, build an itinerary in a planning tool, book through an OTA, and track expenses somewhere else.
-
-This creates a fragmented workflow where **planning, decision-making, budgeting, and replanning are treated as separate tasks instead of parts of the same trip.**
-
-### Our Solution
-
-Our Travel Planner brings these parts of trip planning into one connected experience. Users can create a trip, provide their preferences and budget, collaborate with their group, and generate an itinerary based on the group's combined needs.
-
-Rather than treating the itinerary as a fixed schedule, the system is designed to **adapt when the situation changes**. When a disruption occurs, such as a delay, weather change, or unavailable activity, the system can help identify alternative activities and adjust the itinerary while considering existing preferences, budget and location constraints.
-
-**Key features include:**
-
-* 🗺️ **AI-assisted itinerary planning** based on interests, budget and constraints
-* 👥 **Group preference coordination** so individual preferences can contribute to a shared plan
-* 💰 **Shared budget and expense management** for clearer group spending
-* 🔄 **Adaptive itinerary replanning** when unexpected changes occur
-* 📍 **Location and route-aware planning** to reduce unnecessary travel
-* ✈️ **Travel information integration** where applicable
-* 👤 **Support for both group and solo travel**
+Existing travel platforms address individual parts of the journey, but travellers are still left to connect these pieces themselves. This creates an opportunity for a more integrated travel planning experience that can coordinate **preferences, budgets, itineraries, and changes in one place**.
 
 ---
 
-# 2. Ideation & Process
+## 👥 Target Users
 
-## 2.1 Ideas We Considered
+### **Primary: Group Travellers**
 
-[Briefly explain that the team explored multiple possible solutions before selecting the final concept.]
+Our primary users are **young adults travelling in groups of approximately 3–6 people**, including:
 
-| Idea                | Why It Was Kept / Dropped |
-| ------------------- | ------------------------- |
-| **[Chosen Idea 1]** | [Why it was selected]     |
-| **[Chosen Idea 2]** | [Why it was selected]     |
-| [Idea 3]            | [Why it was dropped]      |
-| [Idea 4]            | [Why it was dropped]      |
-| [Idea 5]            | [Why it was dropped]      |
+* University students
+* Friends
+* Couples travelling with friends
+* Young working adults
 
-> **Tip:** Include meaningful ideas that were actually discussed, including ideas that were eventually dropped.
+Their main challenge is **coordination**. Each traveller may have different preferences, budget limits, availability, and activity priorities.
 
-## 2.2 Ideation Boards
+Instead of requiring one person to organise everything, our solution allows each member to contribute their **preferences and constraints**, which can then be consolidated into a shared trip plan.
 
-### Mindmap
+### **Secondary: Solo Travellers**
 
-![Ideation Mindmap](images/ideation-mindmap.png)
+Solo travellers also face:
 
-[1–2 sentences explaining what the mindmap shows and how it contributed to the final concept.]
+* Fragmented planning
+* Extensive information searching
+* Budget management
+* The need to adjust plans when circumstances change
 
-### Problem Tree
+For them, the system focuses more on **personalised itinerary generation, budgeting, and adaptive replanning**.
 
-![Problem Tree](images/problem-tree.png)
+---
 
-[1–2 sentences explaining the root causes, main problem and consequences identified.]
+## 🔎 Existing Solutions & Gaps
 
-### Other Ideation Evidence
+Current travel platforms generally focus on individual parts of the travel journey, such as:
 
-![Brainstorming](images/brainstorming.png)
+| Platform / Tool                          | Main Purpose                           |
+| ---------------------------------------- | -------------------------------------- |
+| ✈️ **Online Travel Agencies (OTAs)**     | Bookings for flights and accommodation |
+| 🗺️ **Navigation and map platforms**     | Locations, routes, and directions      |
+| 📊 **Spreadsheets / planning documents** | Custom itineraries and budgets         |
+| 💬 **Messaging platforms**               | Group discussions and decision-making  |
+| 💰 **Bill-splitting apps**               | Tracking shared expenses               |
 
-[1–2 sentences explaining what this board/scribble/diagram demonstrates.]
+While these tools are useful individually, they are **not designed to work together as a unified planning workflow**.
 
-[Add other actual brainstorming evidence here if useful.]
+Group preferences, budgets, itinerary decisions, and unexpected changes often still have to be coordinated manually.
 
-## 2.3 Idea Evolution
+---
 
-### Initial Concept
+## 💡 Our Solution
 
-[What was your team's original concept?]
+Our Travel Planner brings the major parts of trip planning into **one connected experience**. Users can create a trip, provide their preferences and budget, collaborate with their group, and generate an itinerary that reflects the group's needs. When plans change, the system can help users adapt their itinerary instead of requiring them to rebuild their plans manually.
 
-### Major Changes / Pivots
+### ✨ Feature Set
 
-**Iteration 1:**
-[What changed and why?]
+* 🗺️ **AI-Assisted Itinerary Planning** — based on interests, budget, and constraints
+* 👥 **Group Preference Collection and Coordination**
+* 💰 **Shared Budget and Expense Management**
+* 🔄 **Adaptive Itinerary Replanning** when disruptions occur
+* 📍 **Location and Route-Aware Activity Planning**
+* ✈️ **Integration with Travel Information and Availability** where applicable
+* 👤 **Support for Both Group and Solo Travel**
 
-**Iteration 2:**
-[What changed and why?]
+---
 
-**Iteration 3:**
-[What changed and why?]
+# 2. 💭 Ideation & Process
 
-### Dropped Directions
+## 2.1 💡 Ideas We Considered
 
-[Explain important features or directions that were removed and why.]
+| **Idea**                                    | **Why it was dropped / kept**                                                                                                                                                                                    |
+| ------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **All-in-One Travel Management Hub**        | ✅ **Kept:** Combines itineraries, accommodations, transport, budgeting, and expense tracking into a single platform, eliminating app-switching fatigue.                                                          |
+| **AI-Powered Collaborative Travel Planner** | ✅ **Kept:** Uses AI for personalised itinerary generation, group preference coordination, and adaptive real-time replanning, making trip planning more flexible and suitable for both group and solo travellers. |
+| **AI Travel Chatbot**                       | ❌ **Dropped:** Limited to basic recommendations and Q&A; lacks a comprehensive, collaborative trip-planning workflow.                                                                                            |
 
-### Evolution Timeline
+---
+
+## 2.2 🧠 Ideation Boards
+
+### 🌳 Problem Tree
+
+A structured breakdown tracing trip planning challenges from **root causes to ultimate impacts**.
+
+![Problem Tree](problem-tree.png)
+
+---
+
+### 🐟 Fishbone Diagram Analysis
+
+A structured cause-and-effect breakdown of inefficient travel planning categorised into four main factors:
+
+* **Information**
+* **People / Group**
+* **Planning Process**
+* **Adaptability**
+
+![Fishbone Diagram](fishbone.png)
+
+---
+
+### 🗺️ Feature Mind Map
+
+A structural overview of the collaborative travel planner, categorised into five core pillars:
+
+* 🤖 **Adaptive AI**
+* 👥 **Group Hub**
+* 🗓️ **Itinerary Plan**
+* 💰 **Shared Budget**
+* 🏨 **Unified Bookings Hub**
+
+![Feature Mind Map](mindmap.png)
+
+---
+
+## 2.3 🔄 Idea Evolution
+
+### 🌱 Initial Concept
+
+Our initial concept was a basic travel itinerary planner that allowed travellers to organise destinations, activities, accommodation, and transportation in a single itinerary.
+
+However, this still required users to manually make most planning decisions and did not sufficiently address the challenges of group travel.
+
+### 🚀 Major Changes / Pivots
+
+#### 1️⃣ Iteration 1: Added AI-Personalized Itinerary Generation
+
+We introduced an AI-assisted itinerary generator that creates personalised travel plans based on users' **travel style, budget, preferred pace, and interests**.
+
+This reduced the effort required to manually search for and arrange suitable activities.
+
+#### 2️⃣ Iteration 2: Expanded from Individual Planning to Group Collaboration
+
+We expanded the concept to support **group travel planning**, allowing multiple travellers' preferences, budgets, interests, and schedules to be considered.
+
+Group coordination features were added to make collective decision-making easier.
+
+#### 3️⃣ Iteration 3: Developed an Integrated and Adaptive Travel Platform
+
+We further expanded the system by integrating:
+
+* 💰 Budget and expense management
+* 📍 Location-aware route planning
+* ✈️ Travel information
+* 🔄 Adaptive itinerary replanning
+
+This transformed the concept from a simple itinerary generator into an **all-in-one travel management platform** that can also adapt when travel plans change.
+
+---
+
+### 🗑️ Dropped Directions
+
+The team initially considered developing a standalone **AI travel chatbot** that would provide travel recommendations and answer users’ questions.
+
+However, this direction was dropped because it only addressed a small part of the overall travel planning process and did not sufficiently support:
+
+* 👥 Group collaboration
+* 💰 Budgeting
+* 📍 Route planning
+* 🗓️ Itinerary management
+
+Instead, AI capabilities were integrated into the final platform through **personalised itinerary generation and adaptive replanning**.
+
+---
+
+### 🕐 Evolution Timeline
 
 ```text
-Initial Idea
-     ↓
-[Concept / Version 1]
-     ↓
-[Major refinement]
-     ↓
-[Mentor / team feedback]
-     ↓
-[Major pivot]
-     ↓
-Final Concept
+Create an all-in-one travel planner
+                ↓
+Initial Concept:
+Basic single-user manual itinerary manager
+                ↓
+Iteration 1:
+Added AI-personalised itinerary generation
+                ↓
+Mentor Feedback:
+Streamlined scope to focus strictly on core features
+                ↓
+Iteration 2 and 3:
+Expanded to group collaboration,
+budget tracking and adaptive replanning
+                ↓
+Final Concept:
+Integrated All-in-One Collaborative Travel Platform
 ```
 
-![Idea Evolution](images/idea-evolution.png)
+---
 
-## 2.4 Mentor Consultation
+## 2.4 🧑‍🏫 Mentor Consultation
 
-| Date   | Mentor | Feedback Received | What Was Changed |
-| ------ | ------ | ----------------- | ---------------- |
-| [Date] | [Name] | [Feedback]        | [Action taken]   |
-| [Date] | [Name] | [Feedback]        | [Action taken]   |
-
-[Briefly explain how mentor feedback influenced the final concept.]
+| **Date**       | **Mentor**        | **Feedback Received**                                                                                                           | **What Was Changed**                                                                                                                          |
+| -------------- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| **08.09.2026** | **Teh Ming En**   | Prototype was solid but overloaded with features. Recommended focusing strictly on core functionalities.                        | Streamlined scope and removed non-essential features, such as showing details of upcoming days on the home page, including days and schedule. |
+| **09.09.2026** | **Khor Jia Quan** | Suggested improving typography contrast, adding multi-emoji support for activities, and utilising real-life imagery/countdowns. | Upgraded font size/contrast, added custom activity icons, and enhanced flight/hotel UI with real-life imagery.                                |
 
 ---
 
-# 3. Design & Prototype
+# 3. 🎨 Design & Prototype
 
-## 3.1 User Flow
+## 🔗 UI Prototype
 
-![User Flow](images/user-flow.png)
+**[Open Voyager Interactive Prototype](https://domain-whale-37161544.figma.site)**
 
-[Briefly explain the end-to-end journey of the user.]
-
-Example:
-
-```text
-Create Trip
-    ↓
-Set Budget & Preferences
-    ↓
-Invite Group Members
-    ↓
-Combine Preferences
-    ↓
-Generate Itinerary
-    ↓
-Review & Adjust
-    ↓
-Trip Begins
-    ↓
-Unexpected Change
-    ↓
-Replan Itinerary
-```
-
-## 3.2 UI/UX Design
-
-### Design Direction
-
-[Briefly explain your design principles, visual direction, colour scheme, typography and why they suit the target users.]
-
-### Design Iterations
-
-**Early Design:**
-
-![Early Wireframe](images/wireframe-v1.png)
-
-[What was changed from this version?]
-
-**Later Design:**
-
-![Later Design](images/wireframe-v2.png)
-
-[What improved and why?]
-
-## 3.3 Final Prototype
-
-**Interactive Prototype:** [Public Figma / Netlify / Vercel / Other Link]
-
-### Key Screens
-
-**1. [Screen Name]**
-
-![Screen 1](images/screen1.png)
-
-[What the user does here and why this screen matters.]
-
-**2. [Screen Name]**
-
-![Screen 2](images/screen2.png)
-
-[Brief explanation.]
-
-**3. [Screen Name]**
-
-![Screen 3](images/screen3.png)
-
-[Brief explanation.]
-
-**4. [Screen Name]**
-
-![Screen 4](images/screen4.png)
-
-[Brief explanation.]
-
-**5. [Screen Name]**
-
-![Screen 5](images/screen5.png)
-
-[Brief explanation.]
+> The prototype showcases the key user flows and interfaces of Voyager.
 
 ---
 
-# 4. What Makes It Different
+## 🔐 User Onboarding
 
-## 4.1 Novel Features
+Sign in or create an account to access the travel planner.
 
-### [Feature 1]
+### Interaction
 
-[What it does and what makes the approach distinctive.]
+* 🚀 User enters Voyager
+* 🔑 Sign In
+* 📝 Create Account
+* 🔵 Continue with Google
 
-### [Feature 2]
-
-[What it does and what makes the approach distinctive.]
-
-### [Feature 3]
-
-[What it does and what makes the approach distinctive.]
-
-## 4.2 Differentiation from Existing Solutions
-
-| Capability            | Existing Solutions            | Our Solution    |
-| --------------------- | ----------------------------- | --------------- |
-| Itinerary planning    | [How existing apps handle it] | [Your approach] |
-| Group preferences     | [Limitation]                  | [Your approach] |
-| Budget management     | [Limitation]                  | [Your approach] |
-| Dynamic replanning    | [Limitation]                  | [Your approach] |
-| [Your unique feature] | [Limitation]                  | [Your approach] |
-
-**Our key difference:**
-[2–4 sentences explaining the central combination/twist that differentiates your product.]
+![User Onboarding](onboarding.png)
 
 ---
 
-# 5. Technical Architecture & Feasibility
+## 🏠 Trip Dashboard
 
-## 5.1 Tech Stack
+Provides an overview of upcoming trips, travellers, budget and important alerts.
 
-| Technology | Purpose   | Why We Chose It |
-| ---------- | --------- | --------------- |
-| [Frontend] | [Purpose] | [Reason]        |
-| [Backend]  | [Purpose] | [Reason]        |
-| [Database] | [Purpose] | [Reason]        |
-| [AI API]   | [Purpose] | [Reason]        |
-| [Maps API] | [Purpose] | [Reason]        |
-| [Other]    | [Purpose] | [Reason]        |
+### Interaction
 
-### Hosting
+* 🗓️ Upcoming trip
+* ⚠️ Travel disruption alert
+* 👥 Number of travellers
+* 💰 Group total
+* 📊 Trip status
 
-**Frontend:** [Platform]
-
-**Backend:** [Platform]
-
-**Database:** [Platform]
-
-[Briefly mention relevant technical constraints, API limitations, costs, rate limits, etc.]
-
-## 5.2 System Architecture
-
-![System Architecture](images/system-architecture.png)
-
-[Brief explanation of how the main components communicate.]
-
-Example:
-
-```text
-User
- ↓
-Frontend
- ↓
-Backend / API
- ├── AI Service
- ├── Maps / Location API
- ├── Travel / Booking API
- └── Database
-```
-
-## 5.3 Build Plan & Scope
-
-### Hackathon MVP
-
-During the hackathon, we focused on:
-
-* [Core feature 1]
-* [Core feature 2]
-* [Core feature 3]
-* [Core feature 4]
-
-### Future Development
-
-Features planned beyond the MVP:
-
-* [Future feature 1]
-* [Future feature 2]
-* [Future feature 3]
-
-### Scope Considerations
-
-[Explain what you intentionally did NOT build and why, e.g. limited hackathon time, API availability, technical complexity, cost, etc.]
+![Trip Dashboard](dashboard.png)
 
 ---
 
-# 6. Impact & Future Potential
+## 🤖 AI-Powered Itinerary
 
-## 6.1 Expected Impact
+Users can generate and manage a **day-by-day travel itinerary**.
 
-Our solution aims to reduce the time and effort required to plan a trip while making group decision-making more manageable and travel plans more resilient to unexpected changes.
+### Interaction
 
-| Before                                     | With Our Solution  |
-| ------------------------------------------ | ------------------ |
-| Information scattered across multiple apps | [Your improvement] |
-| One person handles most planning           | [Your improvement] |
-| Group preferences discussed manually       | [Your improvement] |
-| Budget tracked separately                  | [Your improvement] |
-| Static itinerary                           | [Your improvement] |
-| Disruptions require manual replanning      | [Your improvement] |
+* 👀 View activities
+* ➕ Add Activity
+* 🤖 AI Suggest
+* 🗓️ Users can view, add and manage activities for each day
 
-### Benefits to Target Users
-
-* [Benefit 1]
-* [Benefit 2]
-* [Benefit 3]
-* [Benefit 4]
-
-## 6.2 Scalability & Future Development
-
-[Explain how the solution could expand beyond the initial target group.]
-
-Potential future directions:
-
-* [Expansion to more users / larger groups]
-* [Additional destinations]
-* [More travel APIs]
-* [Personalisation improvements]
-* [Partnerships / integrations]
-* [Other future applications]
+![AI-Powered Itinerary](itinerary.png)
 
 ---
 
-# Appendix
+## 👥 New Trip and Group Management
 
-## A. Additional Brainstorming
+Users can create a new trip group or join an existing group.
 
-[Additional brainstorming screenshots, sketches, sticky notes, etc.]
+### Interaction
 
-## B. Mentor Feedback Evidence
+* ➕ New Trip
+* 🔗 Join Group
 
-[Meeting notes, screenshots, feedback records, etc.]
+![New Trip and Group Management](group-management.png)
 
-## C. Prototype Iterations
+---
 
-### Version 1
+## 💰 Group Budget
 
-![Prototype V1](images/prototype-v1.png)
+Tracks shared expenses and calculates each member's balance.
 
-### Version 2
+### Interaction
 
-![Prototype V2](images/prototype-v2.png)
+* 💵 Group Total
+* 👤 Per Person
+* 🧾 Expenses
 
-### Final Version
+![Group Budget](budget.png)
 
-![Final Prototype](images/final-prototype.png)
+---
 
-## D. Additional Evidence
+## ✈️ Booking Management
 
-[Other useful supporting material.]
+Users can view and manage **flights, hotels and activities** in one place.
+
+![Booking Management](booking.png)
+
+---
+
+# 4. ⭐ What Makes It Different
+
+## 4.1 💎 Novel Features
+
+### 🤖 AI-Assisted Personalised Itinerary Planning
+
+Voyager generates personalised itineraries based on travellers' **interests, budget, travel pace, and other constraints**.
+
+Unlike basic itinerary planners that require users to manually organise activities, the AI helps create a travel plan that better matches individual or group preferences.
+
+---
+
+### 👥 Group Preference Coordination
+
+Voyager collects and considers the **preferences, budgets, interests, and schedules** of multiple travellers when planning a group trip.
+
+This makes the approach distinctive by helping groups find suitable plans without relying heavily on discussions across different messaging and planning applications.
+
+---
+
+### 🔄 Adaptive Itinerary Replanning
+
+Voyager allows travellers to re-plan their itinerary when unexpected changes or disruptions occur.
+
+Instead of manually reorganising the entire trip, the system can suggest alternative activities or arrangements while considering the:
+
+* Existing itinerary
+* Preferences
+* Budget
+* Location
+
+---
+
+## 4.2 ⚖️ Differentiation from Existing Solutions
+
+| **Capability**                         | **Existing Solutions**                                                  | **Our Solution**                                                                                    |
+| -------------------------------------- | ----------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
+| 🗓️ **Itinerary planning**             | Relies on manual searching and structuring of activities.               | Uses AI-driven personalised itinerary generation based on interests, budget, pace, and constraints. |
+| 👥 **Group preferences**               | Requires scattered discussions across external messaging apps.          | Centralised collection and coordination of group preferences when planning.                         |
+| 💰 **Budget management**               | Budgeting and expense splitting are often handled using separate tools. | Integrates shared budget and expense management directly with the trip plan.                        |
+| 🔄 **Dynamic replanning**              | Requires manually modifying the user's itinerary when plans change.     | Supports adaptive replanning by suggesting suitable alternatives when disruptions occur.            |
+| 📍 **Location / Route-Aware Planning** | Often ignores geographical distance and transit efficiency.             | Considers activity locations and routes to create a more practical travel schedule.                 |
+
+---
+
+### 🌟 Our Key Difference
+
+Our core strength lies in combining:
+
+> **AI-powered personalisation + Group coordination + Budgeting + Route awareness + Adaptive replanning**
+
+into a **single, unified platform**.
+
+Rather than requiring travellers to use separate applications for different parts of their trip, Voyager brings the entire planning process together in one place.
+
+By seamlessly balancing the individual needs and schedules of multiple travellers, it eliminates the friction of group coordination and effortlessly adapts the itinerary whenever travel plans change.
+
+---
+
+# 5. 🛠️ Technical Architecture & Feasibility
+
+## 💻 Tech Stack
+
+| **Component**      | **Technology**                   | **Why we chose it**                                                                                               | **Expected constraint**                                                      |
+| ------------------ | -------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
+| 📱 **Frontend**    | React Native & Expo              | Builds cross-platform mobile interfaces smoothly based on our UI prototypes.                                      | Advanced native mobile features may require custom configuration.            |
+| ⚙️ **Backend**     | Supabase & Node.js API           | Provides rapid backend services, authentication, and custom API endpoints without building a server from scratch. | Free tier usage and resource limits apply.                                   |
+| 🗄️ **Database**   | PostgreSQL (via Supabase)        | Stores user accounts, trips, itineraries, bookings, and expense information in a structured way.                  | Schema design must be carefully planned as features expand.                  |
+| 🔌 **Data & APIs** | External Travel APIs & Mock Data | Integrates third-party APIs (or mock data) to simulate live flight details, schedules, and disruption alerts.     | External API rate limits and reliance on mock data for real-time edge cases. |
+| ☁️ **Hosting**     | Supabase Cloud + Expo            | Enables seamless cloud deployment for both app services and database management.                                  | Cloud hosting free tiers have bandwidth and data limitations.                |
+
+---
+
+## 🏗️ System Architecture
+
+*Optional: Add the system architecture diagram here if your team has one.*
+
+![System Architecture](system-architecture.png)
+
+---
+
+## 📦 Build Plan & Scope
+
+The building phase will focus on the **core functions required to demonstrate the main travel planning experience**.
+
+### 👤 1. User Account
+
+* Create an account
+* Sign in
+* Continue with Google
+* Store basic user information
+
+### 🗺️ 2. Trip Management
+
+* Create and save a trip
+* Set travel dates
+* Add destinations
+* Display trip overview on the Home page
+
+### 🗓️ 3. Itinerary Management
+
+* Create a daily itinerary
+* Add activities to each day
+* Display activity time and location
+* View different days of the trip
+* Edit itinerary details
+
+### ✈️ 4. Booking Management
+
+* Add and view flight bookings
+* Add and view hotel bookings
+* Display booking status
+* Highlight disrupted bookings
+* Access the re-planning function for affected flights
+
+### 💰 5. Budget Management
+
+* Set a total trip budget
+* Record travel expenses
+* Display total spending
+* Display spending for each traveller
+* Show remaining budget
+
+### 🔄 6. Flight Disruption & Re-planning
+
+* Simulate a flight disruption
+* Display the impact on the itinerary
+* Identify affected activities or bookings
+* Display alternative flight options
+* Allow users to select an alternative flight
+
+---
+
+## ✅ In Scope
+
+The building phase will focus on:
+
+* 👤 User registration and login
+* 🗺️ Trip creation and management
+* 🗓️ Daily itinerary planning
+* ✈️ Flight and hotel booking management
+* 💰 Budget and expense tracking
+* 🔌 API-integrated flight disruption
+* 🔄 Alternative flight selection and re-planning
+
+---
+
+## 🚫 Out of Scope
+
+To keep the project realistic and achievable within the development timeline, the following features will not be fully implemented:
+
+* 🎟️ Real flight ticket purchasing
+* 🏨 Real hotel booking
+* 💳 Real payment processing
+* ✈️ Real-time airline booking availability
+* 🚨 Real-time flight disruption data
+* 🤖 Full-scale AI travel planning
+* 🌐 Social networking between travellers
+
+---
+
+# 6. 🌱 Impact & Future Potential
+
+## 6.1 🎯 Expected Impact
+
+Voyager aims to reduce the time and effort required to plan a trip while making group decision-making more manageable and travel itineraries more resilient to unexpected changes.
+
+The platform addresses these issues by connecting previously fragmented activities into a **single workflow**.
+
+| **Before**                                               | **With Our Solution**                                                   |
+| -------------------------------------------------------- | ----------------------------------------------------------------------- |
+| 📱 Information scattered across multiple apps            | 🗂️ Trip information is organised in one centralised workspace          |
+| 👤 One person handles most planning                      | 👥 Group members actively contribute and coordinate preferences         |
+| 💬 Group preferences discussed manually                  | 🧠 Preferences are collected and considered systematically              |
+| 📊 Budget tracked separately in external tools           | 💰 Budgeting is integrated directly with itinerary planning             |
+| 📅 Static itineraries that are hard to change            | 🔄 Dynamic itineraries that adapt when circumstances change             |
+| 🔧 Disruption management requires manual replanning      | 🤖 The system identifies affected plans and proposes smart alternatives |
+| 🔎 Travellers repeatedly search for information          | 🗺️ AI-assisted recommendations reduce manual searching                 |
+| ⭐ Popular activities dominate, ignoring minority choices | ⚖️ Recommendations fairly weigh individual and group preferences        |
+
+---
+
+## 🎁 Benefits to Target Users
+
+* ⏱️ **Reduced Effort:** Minimises manual legwork through AI-assisted itinerary generation.
+* 🧠 **Lower Cognitive Load:** Centralises key trip details into a single unified workspace.
+* 👥 **Streamlined Group Coordination:** Automatically reconciles individual preferences and budgets.
+* 💰 **Enhanced Budget Awareness:** Connects day-to-day spending directly with itinerary decisions.
+* 🔄 **Disruption Resilience:** Provides adaptive replanning workflows when travel plans go off track.
+* 📍 **Context-Aware Insights:** Generates recommendations based on location, time, budget, and personal preferences.
+
+---
+
+## 6.2 🚀 Scalability & Future Development
+
+While our initial MVP focuses on **small group travel**, Voyager is engineered for broad expansion.
+
+### 👨‍👩‍👧 Larger User Groups
+
+The platform could support:
+
+* Larger travel groups
+* Family trips
+* School trips
+* Corporate travel
+* Organised tours
+
+### 🌍 Global Destinations
+
+The system can be expanded to support more destinations by integrating additional:
+
+* 📍 Location APIs
+* 🎯 Activity APIs
+* 🚆 Transportation APIs
+* 🌦️ Weather APIs
+* ✈️ Travel-information APIs
+
+### 🔌 Expanded API Integrations
+
+Future versions could integrate:
+
+* ✈️ Flight APIs
+* 🏨 Hotel APIs
+* 🚆 Public transportation APIs
+* 🎟️ Attraction booking APIs
+* 🌦️ Weather services
+* 💱 Currency exchange services
+
+This would allow the system to provide **more accurate real-time planning**.
+
+### 🧠 Advanced Personalisation
+
+Future versions could build long-term traveller profiles containing:
+
+* 🎯 Preferred activities
+* 💰 Typical budget
+* 🏃 Travel pace
+* 🍜 Food preferences
+* 🏨 Accommodation preferences
+* 🚆 Preferred transportation
+
+This could make future itinerary generation **more personalised**.
+
+### 🤝 Ecosystem Partnerships
+
+The platform could eventually partner with:
+
+* 🏞️ Local activity providers
+* 🍽️ Restaurants
+* 🏨 Accommodation providers
+* 🚆 Transportation providers
+* 🌏 Tourism organisations
+
+---
+
+# 🔗 Project Links
+
+|                            | Link                                                          |
+| -------------------------- | ------------------------------------------------------------- |
+| 🎥 **Video Presentation**  | [Unlisted YouTube Link]                                       |
+| 🎨 **UI Prototype**        | [Voyager Prototype](https://domain-whale-37161544.figma.site) |
+| 📊 **Presentation Slides** | [Public Slides Link]                                          |
+| 💻 **GitHub Repository**   | [Repository Link]                                             |
+
+---
+
+# 👥 Team TSLC
+
+**CodeNection 2026 — Lifestyle Track: Planning an Escape**
+
+* **Lee Wei En**
+* **Chan Xiang Wei**
+* **See Jia Yee**
+* **Teh Hui Min**
+
+---
+
+# ✈️ Voyager
+
+> **Plan together. Travel smarter. Adapt as you go.**
