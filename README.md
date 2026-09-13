@@ -127,8 +127,7 @@ Our Travel Planner brings the major parts of trip planning into **one connected 
 
 A structured breakdown tracing trip planning challenges from **root causes to ultimate impacts**.
 
-![Problem Tree](<img width="3095" height="4686" alt="problem_tree" src="https://github.com/user-attachments/assets/750a07e5-aea4-4319-9aa7-860e9cb93aa9" />
-)
+![Problem Tree](https://github.com/w313nnn/Voyager/blob/main/problem_tree.jpeg?raw=true)
 
 ---
 
@@ -141,7 +140,7 @@ A structured cause-and-effect breakdown of inefficient travel planning categoris
 * **Planning Process**
 * **Adaptability**
 
-![Fishbone Diagram](fishbone.png)
+![Fishbone Diagram](https://github.com/w313nnn/Voyager/blob/main/fishbone.jpeg?raw=true)
 
 ---
 
@@ -155,7 +154,7 @@ A structural overview of the collaborative travel planner, categorised into five
 * **Shared Budget**
 * **Unified Bookings Hub**
 
-![Feature Mind Map](mindmap.png)
+![Feature Mind Map](https://github.com/w313nnn/Voyager/blob/main/mindmap.PNG?raw=true)
 
 ---
 
