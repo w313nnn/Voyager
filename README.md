@@ -127,7 +127,8 @@ Our Travel Planner brings the major parts of trip planning into **one connected 
 
 A structured breakdown tracing trip planning challenges from **root causes to ultimate impacts**.
 
-![Problem Tree](problem-tree.png)
+![Problem Tree](<img width="3095" height="4686" alt="problem_tree" src="https://github.com/user-attachments/assets/750a07e5-aea4-4319-9aa7-860e9cb93aa9" />
+)
 
 ---
 
