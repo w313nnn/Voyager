@@ -262,7 +262,7 @@ Sign in or create an account to access the travel planner.
 * 📝 Create Account
 * 🔵 Continue with Google
 
-![User Onboarding](onboarding.png)
+![User Onboarding](https://github.com/w313nnn/Voyager/blob/main/sign_in.png?raw=true)
 
 ---
 
@@ -278,7 +278,8 @@ Provides an overview of upcoming trips, travellers, budget and important alerts.
 * Group total
 * Trip status
 
-![Trip Dashboard](dashboard.png)
+![Trip Dashboard](https://github.com/w313nnn/Voyager/blob/main/home_page_1.png?raw=true)
+![My Groups](https://github.com/w313nnn/Voyager/blob/main/home_page_My%20Groups.png?raw=true)
 
 ---
 
@@ -293,7 +294,8 @@ Users can generate and manage a **day-by-day travel itinerary**.
 * AI Suggest
 * Users can view, add and manage activities for each day
 
-![AI-Powered Itinerary](itinerary.png)
+![AI-Powered Itinerary 1](https://github.com/w313nnn/Voyager/blob/main/plan_page.png?raw=true)
+![AI-Powered Itinerary 2](https://github.com/w313nnn/Voyager/blob/main/plan_page_Schedule.png?raw=true)
 
 ---
 
@@ -306,7 +308,7 @@ Users can create a new trip group or join an existing group.
 * ➕ New Trip
 * 🔗 Join Group
 
-![New Trip and Group Management](group-management.png)
+![New Trip and Group Management](https://github.com/w313nnn/Voyager/blob/main/add_groups.png?raw=true)
 
 ---
 
@@ -320,7 +322,8 @@ Tracks shared expenses and calculates each member's balance.
 * Per Person
 * Expenses
 
-![Group Budget](budget.png)
+![Group Budget](https://github.com/w313nnn/Voyager/blob/main/budget_page.png?raw=true)
+![Group Budget](https://github.com/w313nnn/Voyager/blob/main/budget_page_2.png?raw=true)
 
 ---
 
@@ -328,7 +331,9 @@ Tracks shared expenses and calculates each member's balance.
 
 Users can view and manage **flights, hotels and activities** in one place.
 
-![Booking Management](booking.png)
+![Booking Management 1](https://github.com/w313nnn/Voyager/blob/main/bookings_page_Flights.png?raw=true)
+![Booking Management 2](https://github.com/w313nnn/Voyager/blob/main/bookings_page_Hotels.png?raw=true)
+![Booking Management 3](https://github.com/w313nnn/Voyager/blob/main/bookings_page_Activities.png?raw=true)
 
 ---
 
