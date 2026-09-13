@@ -11,6 +11,7 @@
 **Presentation Slides:** [Public Link](https://www.figma.com/deck/5pLBlRw19CGLIqTF3TpWtW/Voyager-Presentation-Slides?node-id=90-74&t=yqWdoJ6gcpzFznCy-1)
 
 **UI Prototype:** [Voyager Interactive Prototype](https://domain-whale-37161544.figma.site)
+                  [Voyager Low Fidelity Prototype](https://www.figma.com/proto/RD91gycvbZAKYMAJSjkp3j/Voyager---Low-Fidelity-Prototype?node-id=0-1&t=XSnQSLgZoItxoTAZ-1)
 
 ---
 
@@ -598,6 +599,7 @@ The platform could eventually partner with:
 | -------------------------- | ------------------------------------------------------------- |
 | 🎥 **Video Presentation**  | [Unlisted YouTube Link](https://youtu.be/GvF9M3HBSh8?si=T0fovRQdq-b1ijRY) |
 | 🎨 **UI Prototype**        | [Voyager Interactive Prototype](https://domain-whale-37161544.figma.site) |
+|                             | [Voyager Low Fidelity Prototype](https://www.figma.com/proto/RD91gycvbZAKYMAJSjkp3j/Voyager---Low-Fidelity-Prototype?node-id=0-1&t=XSnQSLgZoItxoTAZ-1) |
 | 📊 **Presentation Slides** | [Public Link](https://www.figma.com/deck/5pLBlRw19CGLIqTF3TpWtW/Voyager-Presentation-Slides?node-id=90-74&t=yqWdoJ6gcpzFznCy-1) |
 
 ---
