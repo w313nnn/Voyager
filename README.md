@@ -1,8 +1,10 @@
 # ✈️ Voyager by TSLC
 
+> **CodeNection 2026 — Lifestyle Track: Planning an Escape**
+
 **Team:** Chan Xiang Wei, Lee Wei En, See Jia Yee, Teh Hui Min
 
-**Problem Statement:** Travel Planner
+**Problem Statement:** Lifestyle Track: Planning an Escape - Travel Planner
 
 **Video Presentation:** [Unlisted YouTube Link](https://youtu.be/GvF9M3HBSh8?si=T0fovRQdq-b1ijRY)
 
@@ -606,6 +608,6 @@ The platform could eventually partner with:
 
 ---
 
-# ✈️ Voyager
+# ✈️ Voyager AI-Powered Collaborative Travel Planner
 
 > **TravelSmarter, Together**
